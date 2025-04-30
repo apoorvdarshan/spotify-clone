@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="main">
+      <!--TITLE BAR////////////////////////////////////////////////////-->
+      <div class="title-bar">
+        <!--spotify logo, nav, profile-->
+        <div class="spotify-logo">
+          <a href="./index.html"
+            ><img src="./assets/logo-black.jpg" alt="spotify-logo"
+          /></a>
+        </div>
+
+        <div class="nav">
+          <!--home logo, search bar-->
+          <div class="nav-home">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p class="placeholder">What do you want to play?</p>
+            <p class="divider">|</p>
+            <i class="fa-solid fa-folder-open"></i>
+          </div>
+        </div>
+        <div class="profile">
+          <!--install app, notification bell, user login-->
+          <div class="install">
+            <i class="fa-solid fa-download"></i>
+            <p>Install App</p>
+          </div>
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </div>
+
+      <!--SIDE BAR//////////////////////////////////////////////////////////////-->
+      <div class="sidebar">
+        <!--library, boxes-->
+        <div class="library">
+          <p>Your Library</p>
+          <div class="plus-sign">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="boxes">
+          <div>
+            <h4>Create your first playlist</h4>
+            <p>It's easy, we'll help you</p>
+            <button>Create playlist</button>
+          </div>
+          <div>
+            <h4>Let's find some podcasts to follow</h4>
+            <p>We'll keep you updated on new episodes</p>
+            <button>Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <!--MAIN CONTENT//////////////////////////////////////////////////////////-->
+      <div class="main-content">
+        <h2>Trending songs</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/card3img.jpeg" alt="void-logo" />
+            <p class="card-title">void</p>
+            <p class="card-info">isq</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/card4img.jpeg"
+              alt="did i tell u that i miss u -logo"
+            />
+            <p class="card-title">did i tell u that i miss u</p>
+            <p class="card-info">adore</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card5img.jpeg" alt="wutiwant-logo" />
+            <p class="card-title">wutiwant</p>
+            <p class="card-info">saraunh0ly</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/card6img.jpeg"
+              alt="Music To Watch Boys (Demo) -logo"
+            />
+            <p class="card-title">Music To Watch Boys (Demo)</p>
+            <p class="card-info">dreamsoda</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card7img.jpeg" alt="I Wanna Be Yours -logo" />
+            <p class="card-title">I Wanna Be Yours</p>
+            <p class="card-info">Arctic Monkeys</p>
+          </div>
+        </div>
+        <h2>Popular artists</h2>
+        <div class="card-container">
+          <div class="card" id="artist">
+            <img src="./assets/card8img.jpeg" alt="Lana Del Rey" />
+            <p class="card-title">Lana Del Rey</p>
+            <p class="card-info">Artist</p>
+          </div>
+          <div class="card" id="artist">
+            <img src="./assets/card9img.jpeg" alt="Arctic Monkeys" />
+            <p class="card-title">Arctic Monkeys</p>
+            <p class="card-info">Artist</p>
+          </div>
+          <div class="card" id="artist">
+            <img src="./assets/card10img.jpeg" alt="yung kai" />
+            <p class="card-title">yung kai</p>
+            <p class="card-info">Artist</p>
+          </div>
+          <div class="card" id="artist">
+            <img src="./assets/card11img.jpeg" alt="Lady Gaga" />
+            <p class="card-title">Lady Gaga</p>
+            <p class="card-info">Artist</p>
+          </div>
+          <div class="card" id="artist">
+            <img src="./assets/card12img.jpeg" alt="Sabrina Carpenter" />
+            <p class="card-title">Sabrina Carpenter</p>
+            <p class="card-info">Artist</p>
+          </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/card2img.jpeg" alt="top-songs-global" />
+            <p class="card-info">Your weekly update of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card1img.jpeg" alt="top-50-global" />
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line">© 2025 Spotify AB</div>
+        </div>
+      </div>
+      <!--MUSIC PLAYER////////////////////////////////////////////////////-->
+      <div class="music-player">
+        <div class="album">
+          <!--ALBUM-->
+          <img src="./assets/card13img.jpeg" alt="something about you" />
+          <div class="album-info">
+            <p class="album-title">Something About You</p>
+            <p class="album-artist">Eyedress, Dent May</p>
+          </div>
+          <input type="checkbox" name="heart" id="heart" />
+          <label for="heart">
+            <i class="fa-solid fa-heart"></i>
+          </label>
+          <div class="add-to-playlist">
+            <input type="checkbox" name="add-playlist" id="add-playlist" />
+            <label for="add-playlist">
+              <i class="fa-solid fa-circle-plus"></i>
+              <i class="fa-solid fa-circle-check"></i>
+            </label>
+          </div>
+        </div>
+        <div class="player">
+          <!--PLAYER-->
+          <div class="player-controls">
+            <input type="checkbox" name="shuffle-button" id="shuffle-button" />
+            <label for="shuffle-button">
+              <i class="fa-solid fa-shuffle"></i>
+            </label>
+            <i class="fa-solid fa-backward-step"></i>
+            <input
+              type="checkbox"
+              name="play-pause-button"
+              id="play-pause-button"
+            />
+            <label for="play-pause-button">
+              <i class="fa-solid fa-circle-play"></i>
+              <i class="fa-solid fa-circle-pause"></i>
+            </label>
+            <i class="fa-solid fa-forward-step"></i>
+            <input type="checkbox" name="repeat-button" id="repeat-button" />
+            <label for="repeat-button">
+              <i class="fa-solid fa-repeat"></i>
+            </label>
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">0:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" />
+            <span class="total-time">2:33</span>
+          </div>
+        </div>
+        <!--CONTROLS-->
+        <div class="controls">
+          <img src="./assets/controls_icon1.png" alt="now playing view" />
+          <img src="./assets/controls_icon2.png" alt="lyrics" />
+          <i class="fa-solid fa-layer-group"></i>
+          <i class="fa-solid fa-computer"></i>
+          <i class="fa-solid fa-volume-low"></i>
+          <input type="range" min="0" max="100" class="volume-bar" />
+          <i class="fa-solid fa-window-maximize"></i>
+          <i class="fa-solid fa-expand"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
